@@ -5,3 +5,11 @@ $ docker run -e "SPRING_PROFILES_ACTIVE=production" -p 8080:8080 --name gs-sprin
 
 $ docker start gs-spring-boot-development
 $ docker start gs-spring-boot-production
+
+### maven을 이용한 Docker build 및 push
+
+https://github.com/spotify/dockerfile-maven
+
+### private registry를 위한 설정법
+
+https://github.com/spotify/dockerfile-maven/blob/master/docs/authentication.md
